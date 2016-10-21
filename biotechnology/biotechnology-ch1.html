@@ -1,0 +1,377 @@
+<HTML>
+<HEAD>
+  <TITLE>biotechnology-ch1.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Kirk Thomas, Concept Map, cmap, CmapTools, IHMC, biotechnology,  Microbes,  FDA,  tailor-made medicines,  Biotechnology,  US Government,  Eployees and Businesses,  Technology based on Biology,  drought resistence,  fungi,  OSHA,  drug discoveries,  DNA,  herbicide tolerance,  Living Organisms,  food,  drugs and medicine,  EPA,  Consumers,  Biological Systems,  higher yield and nutritional output">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: biotechnology, food to protect Agriculture, Microbes such as fungi, Microbes to develop Agriculture, US Government to protect Agriculture, Microbes such as bacteria, Agriculture to protect Agriculture, drugs and medicine to protect Agriculture, Biotechnology is the sudy of Microbes, US Government to protect Consumers, Living Organisms to modify Microbes, Agriculture to protect Consumers, food to protect the Enviornment, food to protect Consumers, Living Organisms to develop food, food to protect Eployees and Businesses, US Government to protect the Enviornment, Living Organisms to modify DNA, Biotechnology is the sudy of Technology based on Biology, Agriculture to protect the Enviornment, food that produces drugs and medicine">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: biotechnology, food to protect Agriculture, Microbes such as fungi, Microbes to develop Agriculture, US Government to protect Agriculture, Microbes such as bacteria, Agriculture to protect Agriculture, drugs and medicine to protect Agriculture, Biotechnology is the sudy of Microbes, US Government to protect Consumers, Living Organisms to modify Microbes, Agriculture to protect Consumers, food to protect the Enviornment, food to protect Consumers, Living Organisms to develop food, food to protect Eployees and Businesses, US Government to protect the Enviornment, Living Organisms to modify DNA, Biotechnology is the sudy of Technology based on Biology, Agriculture to protect the Enviornment, food that produces drugs and medicine
+
+</noscript>
+
+<map name="biotechnology-ch1.html">
+  <area shape="rect"
+        href="1QP5TKNLWIH691ZKIVWItextIhtml"
+        onClick="popUpEvt(event,'1QP5TKNLWIH691ZKIVWItextIhtml'); return false;"
+        coords="857,237,875,255">
+  <area shape="rect"
+        href="1QP5W1KL4IQ75489I196ItextIhtml"
+        onClick="popUpEvt(event,'1QP5W1KL4IQ75489I196ItextIhtml'); return false;"
+        coords="1271,214,1289,232">
+  <area shape="rect"
+        href="1QP5S342JI2173Q6MIBJItextIhtml"
+        onClick="popUpEvt(event,'1QP5S342JI2173Q6MIBJItextIhtml'); return false;"
+        coords="864,46,882,64">
+  <area shape="rect"
+        href="1QP5W2GP3I91BYMMI1CKItextIhtml"
+        onClick="popUpEvt(event,'1QP5W2GP3I91BYMMI1CKItextIhtml'); return false;"
+        coords="1272,263,1290,281">
+  <area shape="rect"
+        href="1QP5V802JI1LZRZNFI11GItextIhtml"
+        onClick="popUpEvt(event,'1QP5V802JI1LZRZNFI11GItextIhtml'); return false;"
+        coords="257,143,275,161">
+  <area shape="rect"
+        href="1QP5W24VVIXQ7FRCI1BVItextIhtml"
+        onClick="popUpEvt(event,'1QP5W24VVIXQ7FRCI1BVItextIhtml'); return false;"
+        coords="1268,159,1286,177">
+  <area shape="rect"
+        href="1QP5SJKL7ITQ3FGYICQItextIhtml"
+        onClick="popUpEvt(event,'1QP5SJKL7ITQ3FGYICQItextIhtml'); return false;"
+        coords="460,135,478,153">
+  <area shape="rect"
+        href="1QP5W472HIN17LB8I1DHItextIhtml"
+        onClick="popUpEvt(event,'1QP5W472HIN17LB8I1DHItextIhtml'); return false;"
+        coords="1266,106,1284,124">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#biotechnology-ch1.html"
+             SRC="biotechnology-ch1.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1QP5TKNLWIH691ZKIVWItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://ispub.com/IJMB/10/1/14136 "TITLE="">
+      ISPUB Microbes
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5W1KL4IQ75489I196ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.fda.gov/Food/GuidanceRegulation/GuidanceDocumentsRegulatoryInformation/Biotechnology/default.htm "TITLE="">
+      FDA Regulation
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5S342JI2173Q6MIBJItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.youtube.com/watch?v=yS_rg7rzkSQ "TITLE="">
+      Introduction to Biotech - Video
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5W2GP3I91BYMMI1CKItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=FEDERAL_REGISTER&p_id=12500 "TITLE="">
+      OSHA Regulations
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5V802JI1LZRZNFI11GItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.popularmechanics.com/science/health/a4180/4303407/ "TITLE="">
+      Popular Mechanics Medicine-Biotechnology
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5W24VVIXQ7FRCI1BVItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.epa.gov/regulation-biotechnology-under-tsca-and-fifra/epas-regulation-biotechnology-use-pest-management "TITLE="">
+      EPA Regulation
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5SJKL7ITQ3FGYICQItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://garlandscience.com/res/pdf/9780815344674_ch01.pdf "TITLE="">
+      Garland Science Biological Systems
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QP5W472HIN17LB8I1DHItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.usda.gov/wps/portal/usda/usdahome?contentidonly=true&contentid=biotech-plants.xml "TITLE="">
+      USDA Regulation
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
